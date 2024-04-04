@@ -1,10 +1,4 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 6 | @import "vendor/rfs";
- *   |         ^^^^^^^^^^^^
- *   '
- *   sass\_mixins.scss 6:9  @import
- *   sass\style.scss 17:9   root stylesheet */
+
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -14,5 +8,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 6 \2502  @import \"vendor/rfs\";\a   \2502          ^^^^^^^^^^^^\a   \2575 \a   sass\\_mixins.scss 6:9  @import\a   sass\\style.scss 17:9   root stylesheet";
+  content: "Error: expected more input.\a    \2577 \a 30 \2502  // 8. Add additional custom code here\a    \2502                                       ^\a    \2575 \a   sass\\style.scss 30:38  root stylesheet";
 }
